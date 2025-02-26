@@ -1,0 +1,139 @@
+.transaction-history {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.transaction-history h2 {
+  margin: 0 0 16px 0;
+  font-size: 20px;
+  padding: 0 16px;
+  flex-shrink: 0;
+}
+
+.transaction-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0 16px 16px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.transaction-item {
+  background: #F2F2F7;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.transaction-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+  min-width: 0;
+}
+
+.transaction-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.transaction-type {
+  font-weight: 500;
+  width: 60px;
+  flex-shrink: 0;
+  color: #007AFF;
+}
+
+.transaction-amount {
+  font-weight: 500;
+  width: 90px;
+  flex-shrink: 0;
+}
+
+.transaction-date {
+  color: #8E8E93;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.transaction-address {
+  color: #8E8E93;
+  flex-grow: 1;
+  min-width: 140px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.transaction-link {
+  color: #007AFF;
+  text-decoration: none;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.transaction-link:hover {
+  text-decoration: underline;
+}
+
+.transaction-status {
+  color: #34C759;
+  font-weight: 500;
+  margin-left: 12px;
+  width: 70px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+/* Status colors */
+.transaction-type.sent {
+  color: #FF3B30;
+}
+
+.transaction-type.received {
+  color: #34C759;
+}
+
+.tx-type {
+  font-weight: 500;
+  color: #007AFF;
+}
+
+.tx-amount {
+  font-weight: 500;
+}
+
+.tx-date {
+  color: #8E8E93;
+  font-size: 14px;
+}
+
+.transaction-item a {
+  color: #007AFF;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.transaction-item a:hover {
+  text-decoration: underline;
+}
+
+.no-transactions {
+  text-align: center;
+  color: #8E8E93;
+  padding: 16px;
+  background: #F2F2F7;
+  border-radius: 8px;
+  margin-top: 16px;
+} 

@@ -1,0 +1,155 @@
+.onboarding-steps {
+  padding: 5px;
+  margin: 10px;
+}
+
+.onboarding-content h2 {
+  color: #1C1C1E;
+  margin: 0 0 24px 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.step-content {
+  margin-bottom: 32px;
+}
+
+.step-content p {
+  margin: 12px 0;
+  color: hsl(240, 2%, 23%);
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.step-content p:first-child {
+  color: #8E8E93;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.step-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.step-indicators {
+  display: flex;
+  gap: 8px;
+}
+
+.step-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #E5E5EA;
+}
+
+.step-dot.active {
+  background: #007AFF;
+}
+
+.step-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  width: 100%;
+}
+
+.step-buttons button {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.onboarding-menu {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 0px;
+}
+
+.onboarding-menu h2 {
+  margin-bottom: 32px;
+  color: #1C1C1E;
+}
+
+.topic-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.topic-buttons button {
+  padding: 16px;
+  border: 2px solid #007AFF;
+  background: transparent;
+  color: #007AFF;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.topic-buttons button:hover {
+  background: #007AFF;
+  color: white;
+}
+
+/* Style for the topic content */
+.topic-content {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  text-align: center;
+}
+
+.topic-navigation {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.topic-navigation button {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.onboarding-header {
+  position: relative;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.back-button {
+  margin-top: 32px;
+  background: transparent;
+  border: none;
+  color: #007AFF;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.back-button:hover {
+  color: #ffffff;
+  opacity: 0.8;
+} 

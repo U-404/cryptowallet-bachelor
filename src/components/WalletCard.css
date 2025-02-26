@@ -1,0 +1,174 @@
+.wallet-card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-sizing: border-box;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.balance-section {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.balance-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+}
+
+.balance {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1C1C1E;
+  margin: 8px 0;
+}
+
+.network {
+  color: #8E8E93;
+  font-size: 12px;
+}
+
+.transfer-section {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.transfer-section h3 {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+  align-self: flex-start;
+}
+
+.transfer-section input {
+  width: 250px;
+  margin-bottom: 8px;
+}
+
+.transfer-section button {
+  width: 250px;
+}
+
+.nft-section {
+  margin-top: 16px;
+  flex: 1;
+  min-height: 100px;
+  overflow-y: auto;
+}
+
+.nft-section h3 {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+}
+
+.nft-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  padding: 4px;
+}
+
+.nft-item {
+  background: #F2F2F7;
+  border-radius: 8px;
+  padding: 8px;
+  text-align: center;
+}
+
+.nft-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  max-height: 100px;
+  object-fit: cover;
+}
+
+.nft-item p {
+  margin: 4px 0 0 0;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tokens-section {
+  margin-bottom: 16px;
+}
+
+.tokens-section h3 {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+}
+
+.tokens-loading {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+
+.tokens-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.token-item {
+  background: #F2F2F7;
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.token-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.token-symbol {
+  font-weight: 500;
+  color: #1C1C1E;
+}
+
+.token-name {
+  font-size: 12px;
+  color: #8E8E93;
+}
+
+.token-balance {
+  font-weight: 500;
+  color: #1C1C1E;
+}
+
+.no-tokens {
+  text-align: center;
+  color: #8E8E93;
+  padding: 16px;
+  background: #F2F2F7;
+  border-radius: 8px;
+}
+
+.no-nfts {
+  text-align: center;
+  color: #8E8E93;
+  padding: 16px;
+  background: #F2F2F7;
+  border-radius: 8px;
+  grid-column: 1 / -1;
+}
+
+/* Ensure sections don't collapse */
+.wallet-card > div {
+  flex-shrink: 0;
+} 
